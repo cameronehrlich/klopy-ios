@@ -22,6 +22,9 @@
 		3278184D1800DEF800CE9325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3278182C1800DEF800CE9325 /* UIKit.framework */; };
 		327818551800DEF800CE9325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 327818531800DEF800CE9325 /* InfoPlist.strings */; };
 		327818571800DEF800CE9325 /* KlopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327818561800DEF800CE9325 /* KlopyTests.m */; };
+		327818621800E4DE00CE9325 /* KLAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 327818611800E4DE00CE9325 /* KLAPI.m */; };
+		327819401800F96700CE9325 /* KLClipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278193F1800F96700CE9325 /* KLClipping.m */; };
+		327819431801341D00CE9325 /* KLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 327819421801341D00CE9325 /* KLModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,13 @@
 		327818521800DEF800CE9325 /* KlopyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KlopyTests-Info.plist"; sourceTree = "<group>"; };
 		327818541800DEF800CE9325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		327818561800DEF800CE9325 /* KlopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KlopyTests.m; sourceTree = "<group>"; };
+		327818601800E4DE00CE9325 /* KLAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLAPI.h; sourceTree = "<group>"; };
+		327818611800E4DE00CE9325 /* KLAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLAPI.m; sourceTree = "<group>"; };
+		3278193E1800F96700CE9325 /* KLClipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLClipping.h; sourceTree = "<group>"; };
+		3278193F1800F96700CE9325 /* KLClipping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLClipping.m; sourceTree = "<group>"; };
+		327819411801341D00CE9325 /* KLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLModel.h; sourceTree = "<group>"; };
+		327819421801341D00CE9325 /* KLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLModel.m; sourceTree = "<group>"; };
+		E770D8B1A706430CB0475535 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,7 @@
 				3278182A1800DEF800CE9325 /* CoreGraphics.framework */,
 				3278182C1800DEF800CE9325 /* UIKit.framework */,
 				3278184A1800DEF800CE9325 /* XCTest.framework */,
+				E770D8B1A706430CB0475535 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +129,12 @@
 				327818381800DEF800CE9325 /* KLAppDelegate.m */,
 				3278183A1800DEF800CE9325 /* Main_iPhone.storyboard */,
 				3278183D1800DEF800CE9325 /* Main_iPad.storyboard */,
+				327818601800E4DE00CE9325 /* KLAPI.h */,
+				327818611800E4DE00CE9325 /* KLAPI.m */,
+				327819411801341D00CE9325 /* KLModel.h */,
+				327819421801341D00CE9325 /* KLModel.m */,
+				3278193E1800F96700CE9325 /* KLClipping.h */,
+				3278193F1800F96700CE9325 /* KLClipping.m */,
 				327818401800DEF800CE9325 /* KLViewController.h */,
 				327818411800DEF800CE9325 /* KLViewController.m */,
 				327818431800DEF800CE9325 /* Images.xcassets */,
@@ -254,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327819431801341D00CE9325 /* KLModel.m in Sources */,
 				327818421800DEF800CE9325 /* KLViewController.m in Sources */,
 				327818351800DEF800CE9325 /* main.m in Sources */,
+				327819401800F96700CE9325 /* KLClipping.m in Sources */,
 				327818391800DEF800CE9325 /* KLAppDelegate.m in Sources */,
+				327818621800E4DE00CE9325 /* KLAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +495,7 @@
 				3278185C1800DEF800CE9325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3278185D1800DEF800CE9325 /* Build configuration list for PBXNativeTarget "KlopyTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +504,7 @@
 				3278185F1800DEF800CE9325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KLModel.h"
 
 @interface KLAppDelegate : UIResponder <UIApplicationDelegate>
 

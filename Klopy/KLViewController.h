@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KLAPI.h"
+#import "KLClipping.h"
 
-@interface KLViewController : UIViewController
+@interface KLViewController : UIViewController<UITableViewDataSource, UITableViewDelegate, KLAPIDelegate>
 
 @end
