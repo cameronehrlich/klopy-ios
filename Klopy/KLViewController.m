@@ -16,8 +16,6 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
-- (IBAction)add:(id)sender;
-
 @end
 
 @implementation KLViewController
