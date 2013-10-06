@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A13F8E4-2BD7-43C3-BAC2-75C4DD544AE3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Klopy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>72B6B1F4-7947-4C9B-839F-63A609DCF81D</key>
+		<string>https://github.com/cameronehrlich/klopy-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Klopy.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>72B6B1F4-7947-4C9B-839F-63A609DCF81D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cameronehrlich/klopy-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>72B6B1F4-7947-4C9B-839F-63A609DCF81D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>72B6B1F4-7947-4C9B-839F-63A609DCF81D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>klopy-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
